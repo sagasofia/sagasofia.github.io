@@ -13,27 +13,30 @@ header {
 	height: 300px;
 	clear: both;
 }
-
 nav {
 	color: #dddddd;
 	font-size: 22px;
 	clear: both;
 	margin: auto;
+	display: inline-block;
 }
 article {
 	line-height: 1.5;
+}
 
+p::first-letter {
+	font-size: 64px;
+	line-height: 60px;
+	padding-top: 20px;s	
 }
 img {
 	width: 100%;
 }
-
 main {
 	float: left;
 	width: 70%;
 	margin-right: 20px;
 }
-
 .aside {
 	display: inline-block;
 	float: right;
@@ -43,7 +46,6 @@ main {
 	color: #bbbbbb; 
 	max-width: 100%;
 	margin-bottom: 20px;
-
 }
 #navigation a {
 	display: inline-block;
@@ -51,7 +53,9 @@ main {
 	background: black;
 	padding: 11px;
 	text-align: left;
-
+}
+a {
+	color: red;
 }
 a:hover {
 	color: black;
@@ -78,8 +82,11 @@ h3 {
 h4 {
 	color: gray;
 }
-ul {
+li {
 	color: gray;
+}
+span {
+	color: red;
 }
 .side-text {
 	font-size: 14px;
@@ -88,6 +95,9 @@ ul {
 
 .list {
 	color: red;
+	padding: 15px;
+	font-size: 14px;
+	line-height: 18px;
 }
 .continues {
 	color: red;
@@ -96,7 +106,7 @@ ul {
 	margin-bottom: 20px;
 } 
 .footnav {
-	color: lightgray;
+	color: gray;
 }
 #date {
 	color: lightgray;
@@ -111,4 +121,3 @@ footer {
 	color: red;
 	clear: both;
 	}
-#copyright {
