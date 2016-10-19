@@ -1,37 +1,37 @@
 p {
 	color: white;
 	padding: 20px;
-
 }
 .lorem {
 	background-color: red;
 	padding: 22px;
-	margin: 33px;
+	margin: 22px;
 	text-align: center;
 	display: block;
-
 }
-
-
+.link {
+	color: white;
+}
+.background {
+	background-color: gray;
+	padding: 22px;
+	margin: 33px;
+}
 #link {
-
 	font-color: white;
 	background-color: black;
 	text-align: center;
-	padding: 200px;
-	font-size: 66px;
+	padding: 11px;
+	font-size: 30px;
 	word-spacing: 22px;
 }
 #one {
 	color: blue;
 }
-
 #two {
 	color: green;
 	background-color: pink;
-
 }
-
 #three {
 	color: yellow;
 	background-color: blue;
