@@ -25,9 +25,12 @@ article {
 }
 
 p::first-letter {
-	font-size: 64px;
+	font-size: 74px;
 	line-height: 60px;
-	padding-top: 20px;s	
+	color: lightgray;
+	padding-top: 1px;
+	padding-right: 5px;
+	float: left;	
 }
 img {
 	width: 100%;
