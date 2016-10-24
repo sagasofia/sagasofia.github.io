@@ -10,7 +10,6 @@ h1 {
 	color: yellow;
 	padding: 12px;
 }
-
 h2 {
 	font-family: 'Oswald', sans-serif;
 	padding: 12px;
@@ -18,20 +17,24 @@ h2 {
 	text-align: center;
 }
 h3 {
-	font-family:'Source Sans Pro';
+	font-family:'Oswald';
 	font-weight: 700;
 	font-size: 18px;
 }
 h5 {
 	font-family: 'Merriweather', serif;
 	font-size: 25px;
+	margin: 12px;
 }
 p {
 	font-family: 'Source Sans Pro';
+	padding: 22px;
+	margin: -12px;
 }
 button {
 	font-family: 'Oswald';
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: bolder;
 	background-color: #C6C6C6;
 	border-radius: 3px;
 	padding: 12px;
@@ -39,22 +42,29 @@ button {
 	width: 100%
 
 }
+.buttonyellow {
+	background-color: yellow;
+} 
 nav	{
 	font-family: 'Oswald';
 	font-size: 12px;
 	float: right;
-	padding: 12px;
+	padding: 10px;
+	margin: auto;
 }
 a {
 	color: white;
+	font-family: 'Oswald';
+	font-size: 16px;
 }
 header {
 	width: 100%;
 	background-color: black;
+	display: inline-block;
 	overflow: auto;
+	height: 88px;
 }
 footer {
-	overflow: auto;
 	background-color: black;
 }
 .clear {
@@ -63,31 +73,36 @@ footer {
 .boxes {
 	border: 1px;
 	width: 100%;
+	height: 200px;
+	background-color: gray;
+	vertical-align: 50%
 }
 .box0 {
 	width: 400px;
 	height: 200px;
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.6);
 	padding: 22px;
 	padding-bottom: 5px;
 	border: 2px;
+	margin: auto;
+	box-shadow: 1px 1px 5px #000000;
 }
 .box1 {
-	width: 30%;
+	width: 31%;
 	height: 250px;
 	background-color: lightgray;
 	padding: 12px;
 	float: left;
 }
 .box2 {
-	width: 30%;
+	width: 32%;
 	height: 250px;
 	background-color: lightgray;
 	padding: 12px;
 	float: left;
 }
 .box3 {
-	width: 30%;
+	width: 32%;
 	height: 250px;
 	background-color: lightgray;
 	padding: 12px;
@@ -105,7 +120,12 @@ footer {
 	background: url('../img/coworking.jpg');
 	background-size: cover;
 	background-position: 50%;
+
 }
 #underline { 
 	color: gray;
+	text-decoration: line-through;
+}
+#yellow {
+	color: yellow;
 }
