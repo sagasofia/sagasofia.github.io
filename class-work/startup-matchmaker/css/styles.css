@@ -51,6 +51,7 @@ nav	{
 	float: right;
 	padding: 10px;
 	margin: auto;
+	height: 50%;
 }
 a {
 	color: white;
@@ -61,7 +62,7 @@ header {
 	width: 100%;
 	background-color: black;
 	display: inline-block;
-	overflow: auto;
+	overflow: hidden;
 	height: 88px;
 }
 footer {
@@ -121,6 +122,9 @@ footer {
 	background-size: cover;
 	background-position: 50%;
 
+}
+.container {
+	display: inline-block;
 }
 #underline { 
 	color: gray;
