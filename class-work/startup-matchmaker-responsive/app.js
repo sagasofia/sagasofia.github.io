@@ -9,7 +9,7 @@ $(document).ready(function () {
 })
 
 	$('#burger').click(function () {
-	$('#small-nav').slideToggle(2000);
+	$('#small-nav').slideToggle(1000);
 
 })	
 	})

@@ -175,7 +175,10 @@ footer {
 	#small-nav {
 		text-decoration: none;
 		text-align: center;
+		line-height: 40px;
+		padding: 20px;
 	}
+	
 	.clearfix:after {
    		content: " "; /* Older browser do not support empty content */
    		visibility: hidden;
