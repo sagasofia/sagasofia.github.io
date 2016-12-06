@@ -9,8 +9,8 @@ $(document).ready(function () {
 
 	$grid.on( 'click', '.grid-item', function() {
   // remove clicked element
-  	$grid.masonry( 'remove', this )
+  	$grid.masonry('layout');
     // layout remaining item elements
-    .masonry('layout');
+    
 });
 })

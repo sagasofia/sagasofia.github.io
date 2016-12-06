@@ -4,7 +4,7 @@ $(document).ready(function () {
 		var width = $(window).width()
 		
 		if (width >= '880px') {
-			$('small-nav').hide()
+			$('#small-nav').hide()
 		}
 	})
 
