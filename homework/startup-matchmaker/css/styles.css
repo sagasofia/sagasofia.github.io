@@ -33,7 +33,9 @@ h3 {
 p {
 	margin: 0 0 1.5em 0;
 }
-
+ul {
+	list-style-type: none;
+}
 .button {
 	font-family: 'Oswald', sans-serif;
 	text-decoration: none;
